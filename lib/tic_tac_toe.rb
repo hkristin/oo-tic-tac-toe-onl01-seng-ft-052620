@@ -76,7 +76,7 @@ def won?
     position_2 = @board[win_index_2]
     position_3 = @board[win_index_3]
    
-   if position_1 == position_2 && position_1 == position_3
+   if position_taken?(position_1)(position_1 == position_2 && position_1 == position_3)
       return combo
     end
 end
